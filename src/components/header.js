@@ -63,13 +63,13 @@ function header() {
    <div id="categories">
         <div id="home"><a href="index.html">HOME</a></div>
         <div>MY FEED</div>
-        <div id="india">INDIA</div>
-        <div id="world">WORLD</div>
-        <div id="business">BUSINESS</div>
-        <div id="tech">TECH</div>
-        <div id="health">HEALTH</div>
-        <div id="sports">SPORTS</div>
-        <div id="college">BEST COLLEGE</div>
+        <div id="india"> <a href="india.html">INDIA</a></div>
+        <div id="world"><a href="india.html">WORLD</a></div>
+        <div id="business"><a href="business.html">BUSINESS</a></div>
+        <div id="tech"><a href="tech.html">TECH</a></div>
+        <div id="health"><a href="health.html">HEALTH</a></div>
+        <div id="sports"><a href="sports.html">SPORTS</a></div>
+        <div id="college"><a href="college.html">BEST COLLEGE</a></div>
    </div>
 
    <div id="otherOptions">
