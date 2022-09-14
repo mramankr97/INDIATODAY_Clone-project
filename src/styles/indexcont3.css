@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+#indexcont3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(n, 1fr);
+  gap: 1em;
+  max-width: 70vw;
+  margin: auto;
+}
+#indexcont3 > div {
+  padding: 1em;
+}
+#indexcont3 > div > img {
+  width: 100%;
+  height: 60%;
+}
+#indexcont3 > div > li,
+h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

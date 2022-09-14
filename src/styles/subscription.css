@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    gap: 30px;
+    margin: auto;
+    text-align: center;
+    
+}
+#ld{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 250px;
+    margin-top: 50px;
+
+}
+#button{
+    color: white;
+    background-color: red;
+    border-color: red;
+}
+#title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 15%;
+}
+#rsp{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    
+}
+#abot{
+    width: 100%;
+    height: auto;
+
+}
+#abot>a>img{
+    width: 100%;
+}
+#footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    margin-top: 5%;
+}
+#footer>p{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#backnav{
+    display: flex;
+}
+#heading{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-top: -80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#subheading{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+#backnavbar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#logo{
+    margin-right: 30px;
+}
+#backnavbar>p{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding: 0px 0 0px 45px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #aaa;
+    margin: 8px 0;
+    line-height: 33px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#backnavbar>img{
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+#navbar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}

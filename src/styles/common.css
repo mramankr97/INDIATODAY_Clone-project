@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+#indianews {
+  width: 80%;
+  height: auto;
+  padding: 10px;
+  /* border:1px solid black; */
+  margin-left: 12%;
+}
+
+p {
+  box-sizing: border-box;
+  color: #595959;
+  font-family: "OpenSans-Regular";
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 12%;
+}
+hr {
+  width: 80%;
+  margin-left: 12%;
+  color: #ddd;
+}
+h1 {
+  margin-left: 12%;
+  font-family: Merriweather-Bold;
+  word-wrap: break-word;
+  color: #111;
+}

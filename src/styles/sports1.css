@@ -1,0 +1,305 @@
+#display{
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+    padding-top: -50px;
+}
+#box{
+    width: 90%;
+    height:850px ;
+   
+    margin: auto;
+    display: flex;
+   
+}
+
+
+
+
+
+#head{
+    width: 45%;
+    height: 820px;
+    border: 1px solid grey;
+    
+    background-color: black;
+    /* margin-top: 20px; */
+    padding-bottom: 20px;
+}
+#main{
+    width: 95%;
+    height: 60%;
+    
+    margin: auto;
+
+}
+#main>img{
+    width: 90%;
+    height: 60%;
+    margin-left:30px;
+    margin-top: 15px;
+    cursor: pointer;
+    
+       
+}
+#main>img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+  }
+ 
+   
+
+#main>h1{
+    color:black;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+#main>h1:hover{
+    color: blue;
+}
+#content{
+width: 95%;
+height: 35%;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.small{
+    width: 50%;
+    height: 100%;
+    margin-top: 40px;
+}
+.small>img{
+    width: 95%;
+    height: 60%;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-top: -40px;
+    
+    
+}
+
+.small>img+h2{
+    color: white;
+    font-size: 20px;
+    padding-left:20px ;
+    cursor: pointer;
+   
+}
+
+#scroll{
+    width: 20%;
+    height: 800px;
+    border: 1px solid grey;
+    margin-left: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+   padding: 10px;
+}
+#scroll>h2{
+    color: black;
+}
+
+
+#scroll>a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+#scroll>a:hover{
+    color: blue;
+}
+
+
+#right{
+    width: 35%;
+    height: 850px;
+    border: 1px solid grey;
+    
+    padding-left: 30px;
+    margin-left: 30px ;
+
+}
+.btech{
+    width: 90%;
+    height: 250px;
+    
+    
+    margin-top: 20px;
+    
+}
+.btech>img{
+    width: 100%;
+    height: 70%;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.btech>img+p{
+    font-size: 20px ;
+   
+    
+    cursor: pointer;
+}
+.btech>img+p:hover{
+    color: red;
+}
+#second{
+    width: 100%;
+    height: 300px;
+   
+    display: flex;
+    margin-top: -30px;
+   
+
+}
+#visual{
+    width: 65%;
+    height: 250px;
+    
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#king{
+    color: white;
+    width: 100%;
+    height: auto;
+    background-color:#5585F6;
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 30px;
+    
+    
+    
+    
+
+}
+.hor{
+    width: 20%;
+    height: 100%;
+    border: 1px solid grey;
+    margin: auto;
+    /* overflow-y: hidden;
+    overflow-x: auto; */
+    cursor: pointer;
+
+
+}
+.hor>img{
+    width: 100%;
+    height: 80%;
+}
+.hor>img+p{
+    /* color: white; */
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -2px;
+}
+.hor>p:hover{
+    color: red;
+}
+#evaru{
+    width: 30%;
+    height: 250px;
+    /* border: 1px solid grey; */
+    margin: 20px;
+    display: flex;
+    /* margin-top: 20px; */
+}
+.adi{
+    width: 100%;
+    height: 80%;
+   /* border: 1px solid greenyellow; */
+    /* display: flex; */
+    margin: -5px;
+   
+}
+.adi>img{
+    width: 90%;
+    height: 60%;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.adi>img+p{
+    /* color: white; */
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.adi>img+p:hover{
+color: red;
+}
+#movie{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+}
+#photo{
+    color: white;
+    margin-left: 70px;
+    background-color: #5585F6;
+}
+.life{
+    width: 30%;
+    height: 90%;
+    /* border: 1px solid grey; */
+    margin-left: 70px;
+
+}
+/* .life>h1{
+color: white;
+} */
+.life>img{
+    width: 100%;
+    height: 50%; 
+    cursor: pointer;   
+}
+.life>h3{
+    /* color: white; */
+}
+.life>h3:hover{
+  color: red;
+}
+
+
+#trend{
+    width: 100%;
+    height:auto;
+    
+    display: flex;
+    margin-right: 20px;
+
+}
+.pod{
+    width: 30%;
+    height: 90%;
+    margin-left: 70px;
+
+}
+
+.pod>img{
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+    
+    
+}
+.pod>h3{
+    /* color: white; */
+}
+.pod>h3:hover{
+  color: red;
+}
+

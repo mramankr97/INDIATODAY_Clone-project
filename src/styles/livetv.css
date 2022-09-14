@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+#livetvFrame {
+  width: 80vw;
+  margin: auto;
+}
+
+#livetvFrame > div > iframe {
+  width: 50vw;
+  height: 50vh;
+}

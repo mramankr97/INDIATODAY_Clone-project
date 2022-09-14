@@ -1,0 +1,163 @@
+#second{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: -30px;
+   
+
+}
+#visual{
+    width: 65%;
+    height: 250px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#king{
+    
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 20px;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hor{
+    width: 20%;
+    height: 90%;
+    border: 1px solid grey;
+    margin: 10px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    cursor: pointer;
+
+
+}
+.hor>img{
+    width: 100%;
+    height: 70%;
+}
+.hor>img+p{
+    
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -2px;
+}
+#evaru{
+    width: 30%;
+    height: 250px;
+    border: 1px solid grey;
+    margin: 20px;
+    display: flex;
+   
+}
+.adi{
+    width: 100%;
+    height: 80%;
+   
+    margin: -5px;
+   
+}
+.adi>img{
+    width: 90%;
+    height: 60%;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.adi>img+p{
+    
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.adi>img+p:hover{
+color: red;
+}
+#movie{
+    width: 100%;
+    height: 600px;
+  
+    display: flex;
+}
+.life{
+    width: 30%;
+    height: 90%;
+    margin-left: 70px;
+
+}
+
+.life>img{
+    width: 100%;
+    height: 50%;
+    
+}
+
+.life>li{
+   
+    font-size: 16px;
+}
+.life>h1:hover{
+    color: BLUE;
+}
+.life>h3:hover{
+  color: BLUE;
+}
+.life>li:hover{
+    color: BLUE;
+}
+.life>p{
+    
+    color: red;
+    font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+#trend{
+    width: 100%;
+    height: 600px;
+    
+    display: flex;
+    margin-right: 20px;
+
+}
+.pod{
+    width: 30%;
+    height: 90%;
+    margin-left: 70px;
+
+}
+
+.pod>img{
+    width: 100%;
+    height: 50%;
+    
+    
+}
+
+.pod>li{
+   
+    font-size: 16px;
+}
+.pod>h1:hover{
+    color: BLUE;
+}
+.pod>h3:hover{
+  color:BLUE;
+}
+.pod>li:hover{
+    color: BLUE;
+}
+.pod>p{
+    
+    color: BLUE;
+    font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
